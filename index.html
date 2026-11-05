@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <style>
+        * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    background-color: gray;
+}
+div.class2{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 30px;
+padding: 10px;
+margin: 10px;
+}
+.btn{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    color:white;
+    background-color:black;
+  cursor: pointer;
+  margin-right: 50px;
+
+}
+nav a{
+    text-decoration: none;
+    text-align: center;
+    gap: 50px;
+    color: white;
+    padding: 10px;
+}
+
+form {
+    width: 350px;
+    margin: auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div >
+            <a href=""><span ><img src="Orbiting Tooth Dentist Logo.png" alt="" height="65px" width="170px" text-taupe-700></span></a>
+        </div>
+        <nav class="2">
+           <div>
+           <a href="">DOCTORS</a> 
+           <a href="">CONTACT</a>
+            <a href="">PRICING</a>
+       <a href=" "><button class="btn">BOOK A APPOINMENT</button></a>
+           </div>
+                </nav>
+    </header>
+    
+<form action="https://formsubmit.co/hamzashaikh440692@gmail.com" method="POST">
+
+    <input type="text" name="name" placeholder="Your Name" required>
+
+    <input type="email" name="email" placeholder="Your Email" required>
+
+    <textarea name="message" placeholder="Your Message" required></textarea>
+
+    <button type="submit">Submit</button>
+
+</form>
+
+</body>
+</html>
